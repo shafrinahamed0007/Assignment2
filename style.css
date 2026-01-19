@@ -55,3 +55,41 @@ nav > p {
   font-weight: 500;
   font-size: 16px;
 }
+
+nav > span {
+  margin-right: 5px;
+  margin-top: 5px;
+  display: none;
+}
+
+/* Small Device Responsive */
+
+@media screen and (max-width: 576px) {
+  .sm-display-none {
+    display: none;
+  }
+
+  nav {
+    margin: 0 20px;
+  }
+
+  nav > span {
+    display: inline;
+  }
+}
+
+/* Medium Device Responsive */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .sm-display-none {
+    display: none;
+  }
+
+  nav {
+    margin: 0 20px;
+  }
+
+  nav > span {
+    display: inline;
+  }
+}

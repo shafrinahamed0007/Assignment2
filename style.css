@@ -93,7 +93,6 @@ nav > span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-image: url("./Images/hero-bg.png"); */
 }
 
 #div1 {
@@ -103,6 +102,24 @@ nav > span {
   width: 350px;
   height: 350px;
   margin: 0 auto;
+  position: relative;
+}
+
+#tooltip{
+    background-color: #00FF88;
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 55px;
+    border-radius:1000px;
+    align-items: center;
+    justify-items: center;
+    margin-top: -450px;
+    margin-right: -170px;
+    
+    padding: 16px;
+
+
 }
 
 #div2 {
@@ -146,10 +163,9 @@ nav > span {
   }
 
   .banner-section {
- 
     height: auto;
     padding: 60px 20px;
-   
+    background-position: -30px -20px;
   }
 
   #div1 {

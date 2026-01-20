@@ -46,7 +46,7 @@
 }
 
 body {
-  background-color: #230e3d;
+  background-color: #1a0b2e;
   color: white;
 }
 
@@ -151,6 +151,7 @@ nav > span {
   margin: 0 auto;
 
   justify-items: center;
+  background-color: #1a0b2e;
 }
 
 #about-podcast-1 > h1 {
@@ -204,9 +205,10 @@ nav > span {
 .choose-us {
   max-width: 100%;
   min-height: 400px;
-  margin-top: 120px;
+
   margin: 120px auto;
   justify-items: center;
+  background-color: #230e3d;
 }
 
 .choose-us > h1 {
@@ -216,7 +218,7 @@ nav > span {
 }
 
 .choose-us-cart-section {
-  height: 763px;
+  height: auto;
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -233,17 +235,14 @@ nav > span {
 }
 
 #choose-us-cart-2 {
-  /* grid-column: 2/6; */
   grid-column: span 2;
 }
 
 #choose-us-cart-3 {
-  /* grid-column: 2/6; */
   grid-column: span 2;
 }
 
 #choose-us-cart-4 {
-  /* grid-column: span 2; */
   grid-column: span 2;
 }
 
@@ -335,6 +334,50 @@ nav > span {
     justify-items: center;
     font-size: 0.9rem;
   }
+
+  .choose-teachWave-cart {
+    background-color: rgba(53, 17, 101, 40);
+    padding: 20px;
+
+    border-radius: 20px;
+  }
+
+  .choose-us > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .choose-us-cart-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+
+    padding: 0 20px;
+     box-sizing: border-box;
+  }
+
+  .choose-teachWave-cart h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #choose-us-cart-1, 
+  #choose-us-cart-2, 
+  #choose-us-cart-3, 
+  #choose-us-cart-4, 
+  #choose-us-cart-5{
+    grid-column: span 1 !important;
+    
+  }
+
+ #choose-us-cart-1{
+  grid-row: 1 ;
+  padding: 20px;
+ }
+
+  
 }
 
 /* Medium Device Responsive */

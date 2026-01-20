@@ -228,6 +228,7 @@ nav > span {
   }
 
   .btn-group {
+    max-width: 100%;
     gap: 8px;
   }
 

@@ -266,49 +266,52 @@ nav > span {
   justify-items: center;
 }
 
-.features-episodes-section>h1 {
+.features-episodes-section > h1 {
   font-size: 48px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
 }
 
-.features-episode-cart{
+.features-episode-cart {
   max-width: 1200px;
   display: flex;
-  gap: 30px;
-  border-radius: 24px;
-
-}
-
-.features-content{
-  padding: 24px;
   
+
+  gap: 30px;
 }
 
-.features-content h1{
+.features-content {
+  padding: 24px;
+  background-color: #250d44;
+  border-radius:0px 0px 24px 24px;
+}
+
+.features-content h1 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 12px;
-  
 }
 
-
-
-.features-episode-cart img{
+.features-episode-cart img {
   width: 380px;
   height: 214px;
   gap: 6px;
   border-radius: 24px 24px 0px 0px;
-  
 }
 
-
-.time-duration{
+.time-duration {
   display: flex;
+  margin-top: 12px;
+  gap: 6px;
+  color: #00ff88;
 }
 
-.time-duration img{
+.time-duration img {
+  margin-top: 2px;
+}
+
+.time-duration img {
   width: 16.67px;
   height: 16.47px;
 }

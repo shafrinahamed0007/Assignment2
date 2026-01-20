@@ -644,7 +644,9 @@ footer {
   footer {
     max-width: 100%;
     width: 440px;
-    height: 412px;
+    height: 320px;
+  
+   
     background-image: url("./Images/footer-bg.png");
 
     justify-items: center;
@@ -656,6 +658,7 @@ footer {
 
   #footer-content {
     margin-left: 50px;
+    margin-top: 150px;
   }
 
   #footer-content>p {

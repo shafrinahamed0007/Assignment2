@@ -293,7 +293,7 @@ nav>span {
 }
 
 .features-episode-cart img {
-  width: 380px;
+  width: 410px;
   height: 214px;
   gap: 6px;
   border-radius: 24px 24px 0px 0px;
@@ -603,7 +603,7 @@ footer {
     width: 100%;
     flex-direction: column;
     height: auto;
-    gap: 300px;
+    gap: 340px;
   }
 
   .meet-the-host {

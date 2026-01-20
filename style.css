@@ -124,9 +124,10 @@ nav > span {
 }
 
 .btn-group {
+  width: 550px;
   margin-top: 24px;
   gap: 24px;
-  justify-items: center;
+  justify-content: center;
   display: flex;
 }
 
@@ -169,19 +170,21 @@ nav > span {
 
 .about-podcast-cart {
   max-width: 100%;
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 80px;
-  justify-items: center;
 }
 
 .about-podcast-cart div > h1 {
   color: #00ff88;
   font-size: 48px;
   font-weight: 900;
-  justify-content: center;
+  justify-items: center;
   margin-left: 10px;
+}
+
+.about-podcast-cart div > p {
+  align-items: center;
 }
 
 /* Small Device Responsive */
@@ -229,6 +232,9 @@ nav > span {
   }
 
   #tooltip {
+    width: 70px;
+    height: 35px;
+    padding: 8px 16px;
     margin-top: -400px;
     margin-right: -140px;
   }
@@ -249,30 +255,20 @@ nav > span {
   }
 
   .about-podcast-cart {
-    max-width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 20px;
-    gap: 5px;
-
- 
-    
+    padding: 0 0px;
+    gap: 20px 25px;
   }
-
- .about-podcast-cart div{
-  background-color: blue;
-  
- }
 
   .about-podcast-cart div > h1 {
-    font-size: 40px;
-    
+    font-size: 30px;
+    align-items: center;
+    margin-left: 30px;
   }
 
-  .about-podcast-cart div > p{
-   
+  .about-podcast-cart div > p {
     justify-items: center;
-    font-size: 16px;
-    /* text-align: center; */
+    font-size: 0.9rem;
   }
 }
 
@@ -295,5 +291,22 @@ nav > span {
   #about-podcast-2 {
     max-width: 100%;
     padding: 0 50px;
+  }
+
+  .about-podcast-cart {
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+    gap: 20px 25px;
+  }
+
+  .about-podcast-cart div > h1 {
+    font-size: 40px;
+    align-items: start;
+  }
+
+  .about-podcast-cart div > p {
+    justify-items: center;
+    font-size: 15px;
   }
 }

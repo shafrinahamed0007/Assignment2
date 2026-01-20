@@ -205,10 +205,15 @@ nav > span {
 .choose-us {
   max-width: 100%;
   min-height: 400px;
-
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 120px auto;
   justify-items: center;
   background-color: #230e3d;
+}
+
+#choose-us-cart-4 img {
+  margin-left: -20px;
 }
 
 .choose-us > h1 {
@@ -248,6 +253,64 @@ nav > span {
 
 #choose-us-cart-5 {
   grid-column: span 1;
+}
+
+/* Features Episodes Section */
+
+.features-episodes-section {
+  border: 2px solid red;
+  width: 100%;
+  min-height: 700px;
+
+  margin: 120px auto;
+  justify-items: center;
+}
+
+.features-episodes-section>h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features-episode-cart{
+  max-width: 1200px;
+  display: flex;
+  gap: 30px;
+  border-radius: 24px;
+
+}
+
+.features-content{
+  padding: 24px;
+  
+}
+
+.features-content h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  
+}
+
+
+
+.features-episode-cart img{
+  width: 380px;
+  height: 214px;
+  gap: 6px;
+  border-radius: 24px 24px 0px 0px;
+  
+}
+
+
+.time-duration{
+  display: flex;
+}
+
+.time-duration img{
+  width: 16.67px;
+  height: 16.47px;
 }
 
 /* Small Device Responsive */
@@ -355,7 +418,7 @@ nav > span {
     gap: 16px;
 
     padding: 0 20px;
-     box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .choose-teachWave-cart h2 {
@@ -363,21 +426,18 @@ nav > span {
     font-weight: bold;
   }
 
-  #choose-us-cart-1, 
-  #choose-us-cart-2, 
-  #choose-us-cart-3, 
-  #choose-us-cart-4, 
-  #choose-us-cart-5{
-    grid-column: span 1 ;
-    
+  #choose-us-cart-1,
+  #choose-us-cart-2,
+  #choose-us-cart-3,
+  #choose-us-cart-4,
+  #choose-us-cart-5 {
+    grid-column: span 1;
   }
 
- #choose-us-cart-1{
-  grid-row: 1 ;
-  padding: 20px;
- }
-
-  
+  #choose-us-cart-1 {
+    grid-row: 1;
+    padding: 20px;
+  }
 }
 
 /* Medium Device Responsive */
@@ -418,7 +478,6 @@ nav > span {
     font-size: 15px;
   }
 
-
   .choose-teachWave-cart {
     background-color: rgba(53, 17, 101, 40);
     padding: 20px;
@@ -427,7 +486,7 @@ nav > span {
   }
 
   .choose-us > h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 16px;
   }
@@ -435,29 +494,28 @@ nav > span {
   .choose-us-cart-section {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 
     padding: 0 30px;
-     box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .choose-teachWave-cart h2 {
-    font-size: 22px;
+    font-size: 35px;
     font-weight: bold;
   }
 
-  #choose-us-cart-1, 
-  #choose-us-cart-2, 
-  #choose-us-cart-3, 
-  #choose-us-cart-4, 
-  #choose-us-cart-5{
-    grid-column: span 1 ;
-    
+  #choose-us-cart-1,
+  #choose-us-cart-2,
+  #choose-us-cart-3,
+  #choose-us-cart-4,
+  #choose-us-cart-5 {
+    grid-column: span 1;
   }
 
- #choose-us-cart-1{
-  grid-row: 1 ;
-  padding: 20px;
- }
+  #choose-us-cart-1 {
+    grid-row: 1;
+    padding: 20px;
+  }
 }

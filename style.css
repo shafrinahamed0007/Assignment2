@@ -319,7 +319,7 @@ nav>span {
 .video-logo {
 
   padding: 8px 16px;
-  margin-top: -350px;
+  margin-top: -400px;
   margin-left: 140px;
 
 
@@ -329,6 +329,83 @@ nav>span {
   width: 70px;
   height: 70px;
 }
+
+
+/* Meet The Host Section */
+.meet-the-host {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+  justify-items: center;
+  margin-top: -120px;
+}
+
+.meet-the-host>h1 {
+
+  font-size: 48px;
+  font-style: bold;
+}
+
+.meet-the-host-cart {
+  background-color: #351165;
+  display: flex;
+  margin-top: 40px;
+
+  border-radius: 40px;
+  padding: 40px;
+  gap: 24px;
+
+}
+
+#meet-the-host-img {
+  grid: span 1;
+
+  width: 200px;
+
+
+}
+
+#meet-the-host-text {
+  grid: span 4;
+  width: calc(100% - 200px);
+
+
+
+}
+
+#meet-the-host-text>h1 {
+
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+
+}
+
+.meet-the-host-social {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 10px;
+
+
+}
+
+.meet-the-host-social span {
+
+
+  width: 40px;
+  height: 40px;
+  border: 1px solid #533C72;
+  border-radius: 50%;
+  padding: 10px;
+
+
+}
+
+
+
+
 
 
 
@@ -463,6 +540,7 @@ nav>span {
     padding: 20px;
     margin: 0;
     justify-items: start;
+    margin-top: -80px;
   }
 
   .features-episodes-section>h1 {
@@ -479,6 +557,40 @@ nav>span {
     flex-direction: column;
     height: auto;
     gap: 300px;
+  }
+
+  .meet-the-host {
+    margin-top: 350px;
+  }
+
+  .meet-the-host>h1 {
+
+    font-size: 32px;
+    margin-bottom: 24px;
+
+  }
+
+  .meet-the-host-cart {
+    background-color: #351165;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border-radius: 24px;
+    padding: 24px;
+    margin: 0 50px;
+    width: 380px;
+    align-content: center;
+  }
+
+  #meet-the-host-img {
+    width: 100%;
+
+    justify-items: center;
+  }
+
+  #meet-the-host-text {
+    width: 100%;
+    justify-items: center;
   }
 
 }
@@ -579,10 +691,21 @@ nav>span {
   .features-episode-cart {
     margin-top: 24px;
     width: 100%;
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   row-gap: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 350px;
     height: auto;
-    
+
   }
+
+  .meet-the-host {
+
+ margin-top:350px;
+}
+
+.meet-the-host-cart{
+  width: 90%;
+}
+
+  
 }

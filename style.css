@@ -403,6 +403,53 @@ nav>span {
 
 }
 
+footer{
+  
+  max-width: 100%;
+  height: 412px;
+  background-image: url("./Images/footer-bg.png");
+  margin: 0 auto;
+  justify-items: center;
+  align-content: center;
+  margin-top: 120px;
+  
+ 
+}
+
+#footer-content{
+  margin-left: 50px;
+  
+}
+
+#footer-content>p{
+  margin-top: -50px;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-left: 90px;
+}
+
+#footer-content>h4{
+  
+  text-align: center;
+  margin-top: 35px;
+}
+
+.brand-img{
+  margin-left: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.brand-img-cart{
+  display: flex;
+  gap: 8px;
+}
+
+.brand-img-cart img{
+  width: 24px;
+  height: 24px;
+}
+
 
 
 
@@ -591,6 +638,7 @@ nav>span {
   #meet-the-host-text {
     width: 100%;
     justify-items: center;
+    text-align: center;
   }
 
 }

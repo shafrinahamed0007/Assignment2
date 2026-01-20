@@ -368,7 +368,7 @@ nav > span {
   #choose-us-cart-3, 
   #choose-us-cart-4, 
   #choose-us-cart-5{
-    grid-column: span 1 !important;
+    grid-column: span 1 ;
     
   }
 
@@ -417,4 +417,47 @@ nav > span {
     justify-items: center;
     font-size: 15px;
   }
+
+
+  .choose-teachWave-cart {
+    background-color: rgba(53, 17, 101, 40);
+    padding: 20px;
+
+    border-radius: 20px;
+  }
+
+  .choose-us > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .choose-us-cart-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+
+    padding: 0 30px;
+     box-sizing: border-box;
+  }
+
+  .choose-teachWave-cart h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #choose-us-cart-1, 
+  #choose-us-cart-2, 
+  #choose-us-cart-3, 
+  #choose-us-cart-4, 
+  #choose-us-cart-5{
+    grid-column: span 1 ;
+    
+  }
+
+ #choose-us-cart-1{
+  grid-row: 1 ;
+  padding: 20px;
+ }
 }
